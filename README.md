@@ -5,9 +5,9 @@ This application uses **Node.js**, **Inquirer**, and **PostgreSQL** render a CMS
 
 ## Table of Contents
 I. [User Story](#user-story-from-the-cwru-prompt) <br>
-II. [Acceptance Criteria](#acceptance-criteria-adapted-from-the-cwru-prompt)
-III. [Image of Working App]
-IV. Walkthrough Video Link
+II. [Acceptance Criteria](#acceptance-criteria-adapted-from-the-cwru-prompt) <br>
+III. [Image of Working App] <br>
+IV. [Walkthrough Video Link] <br>
 
 ### User Story (from the CWRU prompt)
 As a business owner, I want to be able to view and manage the departments, roles and employees in my company so that I can organize and plan my business.
