@@ -1,11 +1,11 @@
 {
-    "name": "SQL Challenge 12",
+    "name": "sql-challenge-12",
     "version": "1.0.0",
-    "description": "",
+    "description": "a command line application that accepts user input to create and update an employee tracker database using sql and inquirer",
     "main": "index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
-        "start": "node server.js"
+        "start": "node index.js"
     },
     "keywords": [],
     "author": "",
