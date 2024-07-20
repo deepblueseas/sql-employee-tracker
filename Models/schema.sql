@@ -25,3 +25,7 @@ CREATE TABLE department (
     id SERIAL PRIMARY KEY,
     department_name VARCHAR(30) UNIQUE NOT NULL
 );
+
+
+
+-- notes: to open postgres in terminal run  psql -U postgres
