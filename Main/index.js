@@ -70,7 +70,7 @@ const mainMenu = async () => {
               break;
           }
         
-          mainMenu(); // Show the menu again after an action
+          mainMenu(); 
         };
         
         mainMenu();

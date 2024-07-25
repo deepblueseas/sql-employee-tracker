@@ -2,6 +2,8 @@ const inquirer = require('inquirer');
 const { addEmployee } = require('./employees.js');
 const db = require('../config/connection.js');
 
+// similar to the previous inquirer set ups!
+
 async function promptAddEmployee() {
   try {
     const employeeData = await inquirer.prompt([
