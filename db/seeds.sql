@@ -7,10 +7,10 @@ INSERT INTO department (department_name) VALUES
 
 -- Insert job roles
 INSERT INTO job_role (title, salary, department_id) VALUES
-    ('Sales Manager', 100000.01, 1),           -- Department: Sales
-    ('Marketing Specialist', 80000.02, 2),     -- Department: Marketing
-    ('Software Engineer', 90000.03, 3),        -- Department: Engineering
-    ('Financial Analyst', 95000.04, 4);        -- Department: Finance
+    ('Sales Manager', 100000.01, 1),           
+    ('Marketing Specialist', 80000.02, 2),     
+    ('Software Engineer', 90000.03, 3),       
+    ('Financial Analyst', 95000.04, 4);        -
 
 -- Insert employees
 INSERT INTO employee (first_name, last_name, job_id, manager_id) VALUES
