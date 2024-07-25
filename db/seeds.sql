@@ -14,8 +14,8 @@ INSERT INTO job_role (title, salary, department_id) VALUES
 
 -- Insert employees
 INSERT INTO employee (first_name, last_name, job_id, manager_id) VALUES
-    ('John', 'Doe', 1, NULL),                 -- John Doe, Sales Manager
-    ('Jane', 'Smith', 2, 1),                  -- Jane Smith, Marketing Specialist (Reports to John Doe)
-    ('Michael', 'Johnson', 3, 1),             -- Michael Johnson, Software Engineer (Reports to John Doe)
-    ('Emily', 'Williams', 4, NULL);           -- Emily Williams, Financial Analyst
+    ('Scout', 'Cat', 1, NULL),                 
+    ('Daphne', 'Cat', 2, 1),                  
+    ('Tess', 'McGovern', 3, 1),             
+    ('Stephen', 'King', 4, NULL);           
 
