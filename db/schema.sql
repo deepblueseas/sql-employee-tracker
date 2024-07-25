@@ -30,5 +30,4 @@ CREATE TABLE employee (
 
 
 
-
 -- notes: to open postgres in terminal run  psql -U postgres

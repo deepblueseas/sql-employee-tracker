@@ -19,4 +19,3 @@ INSERT INTO employee (first_name, last_name, job_id, manager_id) VALUES
     ('Michael', 'Johnson', 3, 1),             -- Michael Johnson, Software Engineer (Reports to John Doe)
     ('Emily', 'Williams', 4, NULL);           -- Emily Williams, Financial Analyst
 
--- Additional inserts as needed
