@@ -1,4 +1,4 @@
-const connection = require('../config/connection');
+const { pool } = require('../config/connection');
 
 // View all employees
 const viewAllEmployees = async () => {
