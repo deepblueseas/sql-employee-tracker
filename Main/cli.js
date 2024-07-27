@@ -29,7 +29,12 @@ async function promptAddEmployee() {
       },
     ]);
 
+    // this is the employeedata that we just collected through the inq
+    // prompts destructured
+    // this way we can indicate that the new employee will have all of these
+    // attributes
     const { first_name, last_name, role_id, manager_id } = employeeData;
+    // an employee doesn't have to have a manager so that can be null!
     const newEmployee = await addEmployee(first_name, last_name, role_id, manager_id || null);
     console.log('Employee added successfully:');
     console.log(newEmployee);
