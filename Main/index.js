@@ -1,9 +1,9 @@
 const inquirer = require('inquirer');
-const { promptAddEmployee } = require('./cli');
-const departments = require('./departments');
-const roles = require('./roles');
-const employees = require('./employees');
+const { viewAllDepartments, addDepartment } = require('./departments');
+const { viewAllRoles, addRole } = require('./roles');
+const { viewAllEmployees, addEmployee, updateEmployeeRole } = require('./employees');
 
+// just like the previous challenge, we are setting up the inq prompt
 
 const mainMenu = async () => {
     const answers = await inquirer.prompt({
@@ -67,7 +67,6 @@ const mainMenu = async () => {
               break;
             case 'Exit':
               process.exit();
-              break;
           }
         
           mainMenu(); 

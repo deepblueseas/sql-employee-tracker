@@ -1,4 +1,5 @@
 const inquirer = require('inquirer');
+// this pulls in the access to employees database set up in that file
 const { addEmployee } = require('./employees.js');
 const db = require('../config/connection.js');
 
