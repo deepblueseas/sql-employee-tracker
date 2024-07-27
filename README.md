@@ -47,3 +47,5 @@ As a business owner, I want to be able to view and manage the departments, roles
 
 
 ## Walkthrough Video Link
+
+[Video](https://app.screencastify.com/v3/watch/pvPdFu5qy4nAxyM29Vy1)
